@@ -1,0 +1,22 @@
+{
+  "name": "web-search-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive search portal with optional Node.js API",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "server": "node server/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  },
+  "devDependencies": {
+    "vite": "^6.4.1"
+  }
+}
